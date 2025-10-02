@@ -1,0 +1,63 @@
+===========================================
+INSTRUÇÕES PARA CONFIGURAR O WHATSAPP
+===========================================
+
+O site possui 5 pontos de conversão integrados com WhatsApp.
+Você precisa substituir o número de exemplo pelo número real da DataNerd.
+
+NÚMERO ATUAL (EXEMPLO):
+5511999999999
+
+FORMATO CORRETO:
+[Código do País][DDD][Número sem traços ou espaços]
+
+EXEMPLOS:
+- Brasil (11) 98765-4321 → 5511987654321
+- Brasil (21) 91234-5678 → 5521912345678
+
+===========================================
+ONDE SUBSTITUIR:
+===========================================
+
+Abra o arquivo index.html e procure por "5511999999999"
+Substitua TODAS as ocorrências pelo número real.
+
+Locais que precisam ser alterados:
+
+1. Seção "Quem Somos + Contato" (linha ~236)
+   <a href="https://wa.me/5511999999999" target="_blank" class="contact-item">
+
+2. CTA Final (linha ~250)
+   <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar..." target="_blank" class="cta-button cta-large">
+
+3. Rodapé (linha ~271)
+   <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-button">
+
+4. Botão Flutuante (linha ~284)
+   <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+
+===========================================
+MENSAGEM PRÉ-PREENCHIDA (OPCIONAL):
+===========================================
+
+Você pode personalizar a mensagem que aparece automaticamente no WhatsApp:
+
+FORMATO:
+https://wa.me/NUMERO?text=Sua%20mensagem%20aqui
+
+EXEMPLO ATUAL:
+?text=Olá!%20Gostaria%20de%20agendar%20um%20diagnóstico%20gratuito.
+
+DICA: Use %20 para espaços e %0A para quebras de linha.
+
+===========================================
+TESTE:
+===========================================
+
+Após fazer as alterações:
+1. Salve o arquivo index.html
+2. Abra o site no navegador
+3. Clique em qualquer botão de WhatsApp
+4. Verifique se abre o WhatsApp com o número correto
+
+===========================================

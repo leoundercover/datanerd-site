@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a DataNerd. Agende seu diagnóstico gratuito e descubra como a IA pode transformar seu negócio.">
+    <title>Contato - DataNerd</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="DataNerd">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#solucoes">Soluções</a></li>
+                    <li><a href="index.html#resultados">Resultados</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+                <a href="contato.html" class="btn-primary">Fale Conosco</a>
+                <button class="mobile-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Entre em Contato</h1>
+                <p>Estamos prontos para ajudar você a transformar seu negócio com IA</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-page-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Envie sua mensagem</h2>
+                    <p class="form-description">Preencha o formulário abaixo e entraremos em contato em até 24 horas.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome completo *</label>
+                            <input type="text" id="name" name="name" required placeholder="Seu nome">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefone *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="(11) 99999-9999">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" name="company" placeholder="Nome da sua empresa">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">Interesse em *</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Selecione uma opção</option>
+                                <option value="mentorads">MentorAds</option>
+                                <option value="atendimento-ia">Atendimento Inteligente com IA</option>
+                                <option value="aptor">Aptor</option>
+                                <option value="leadsnerd">LeadsNerd</option>
+                                <option value="agendanerd">AgendaNerd</option>
+                                <option value="relatorios">Relatórios Automáticos</option>
+                                <option value="diagnostico">Diagnóstico Gratuito</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Conte-nos mais sobre seu projeto ou dúvida"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Enviar mensagem</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <h2>Outras formas de contato</h2>
+                    <p class="info-description">Escolha o canal que preferir para falar com a gente</p>
+                    
+                    <div class="contact-methods-list">
+                        <a href="mailto:contato@datenerd.com" class="contact-method-card">
+                            <div class="method-icon-large">📧</div>
+                            <div class="method-details">
+                                <h3>Email</h3>
+                                <p>contato@datenerd.com</p>
+                                <span class="method-response">Resposta em até 24h</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://wa.me/5511999999999" target="_blank" class="contact-method-card">
+                            <div class="method-icon-large">💬</div>
+                            <div class="method-details">
+                                <h3>WhatsApp</h3>
+                                <p>(11) 99999-9999</p>
+                                <span class="method-response">Resposta imediata</span>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-method-card">
+                            <div class="method-icon-large">📍</div>
+                            <div class="method-details">
+                                <h3>Localização</h3>
+                                <p>São Paulo, SP - Brasil</p>
+                                <span class="method-response">Atendimento remoto</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method-card">
+                            <div class="method-icon-large">⏰</div>
+                            <div class="method-details">
+                                <h3>Horário de atendimento</h3>
+                                <p>Segunda a Sexta</p>
+                                <span class="method-response">9h às 18h</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="guarantee-box">
+                        <h3>Nossa garantia</h3>
+                        <p>Respondemos todos os contatos em até 24 horas úteis. Se você precisa de uma resposta mais rápida, use nosso WhatsApp!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="section-subtitle">Tire suas dúvidas antes de entrar em contato</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Como funciona o diagnóstico gratuito?</h3>
+                    <p>O diagnóstico é uma reunião de 15-30 minutos onde analisamos seu negócio e identificamos oportunidades de aplicação de IA que podem gerar ROI imediato. Não há compromisso ou custo.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Qual o investimento necessário?</h3>
+                    <p>O investimento varia de acordo com a solução e o tamanho do seu negócio. Trabalhamos com modelos flexíveis e sempre focamos em garantir ROI positivo desde o primeiro mês.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Quanto tempo leva para implementar?</h3>
+                    <p>A maioria das nossas soluções está pronta em 7 dias. Projetos mais complexos podem levar de 2 a 4 semanas, mas você começa a ver resultados desde a primeira semana.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Preciso ter conhecimento técnico?</h3>
+                    <p>Não! Nossas soluções são plug-and-play. Cuidamos de toda a parte técnica e treinamos sua equipe para usar as ferramentas de forma simples e eficiente.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Vocês oferecem suporte contínuo?</h3>
+                    <p>Sim! Todas as nossas soluções incluem suporte técnico, atualizações constantes e acompanhamento de resultados. Você nunca fica sozinho.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>E se eu não tiver resultados?</h3>
+                    <p>Temos garantia de resultados. Se a solução não entregar o ROI prometido, você não paga ou devolvemos seu investimento. Simples assim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="DataNerd" class="footer-logo">
+                    <p>DataNerd © 2025 – Inteligência que gera crescimento.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links rápidos</h4>
+                    <a href="index.html">Home</a>
+                    <a href="produtos.html">Produtos & Serviços</a>
+                    <a href="contato.html">Contato</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <a href="mailto:contato@datenerd.com">contato@datenerd.com</a>
+                    <a href="https://wa.me/5511999999999" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <script src="assets/script.js"></script>
+    <script src="assets/contact-form.js"></script>
+</body>
+</html>

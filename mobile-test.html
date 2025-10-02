@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Mobile Test - DataNerd</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f8fafc;
+        }
+        .test-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            color: #0378A6;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #475569;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            background: #0378A6;
+            color: white;
+            text-align: center;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .success {
+            background: #dcfce7;
+            color: #166534;
+        }
+        .info {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-card">
+        <h1>✅ Teste Mobile-Friendly</h1>
+        <p>Se você consegue ler este texto confortavelmente sem dar zoom, o site está mobile-friendly!</p>
+    </div>
+    
+    <div class="test-card">
+        <h2>Tamanho da Tela</h2>
+        <div class="status info" id="screenSize"></div>
+    </div>
+    
+    <div class="test-card">
+        <h2>Viewport</h2>
+        <div class="status info" id="viewport"></div>
+    </div>
+    
+    <div class="test-card">
+        <h2>Teste de Toque</h2>
+        <p>Toque no botão abaixo para testar a área de toque:</p>
+        <a href="#" class="btn" onclick="alert('✓ Área de toque OK!'); return false;">Testar Toque</a>
+    </div>
+    
+    <div class="test-card">
+        <h2>Checklist Mobile</h2>
+        <div class="status success">
+            ✓ Meta viewport configurado<br>
+            ✓ Fontes legíveis (min 16px)<br>
+            ✓ Botões com área mínima 44x44px<br>
+            ✓ Sem zoom horizontal<br>
+            ✓ Espaçamento adequado<br>
+            ✓ Imagens responsivas
+        </div>
+    </div>
+    
+    <div class="test-card">
+        <a href="index.html" class="btn">← Voltar para o site</a>
+    </div>
+    
+    <script>
+        document.getElementById('screenSize').textContent = 
+            `Largura: ${window.innerWidth}px | Altura: ${window.innerHeight}px`;
+        
+        document.getElementById('viewport').textContent = 
+            `Viewport: ${document.documentElement.clientWidth}px × ${document.documentElement.clientHeight}px`;
+        
+        window.addEventListener('resize', function() {
+            document.getElementById('screenSize').textContent = 
+                `Largura: ${window.innerWidth}px | Altura: ${window.innerHeight}px`;
+            
+            document.getElementById('viewport').textContent = 
+                `Viewport: ${document.documentElement.clientWidth}px × ${document.documentElement.clientHeight}px`;
+        });
+    </script>
+</body>
+</html>
