@@ -91,13 +91,13 @@ const Home = () => {
           <div className={`max-w-4xl mx-auto text-center transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#013440]/10 to-[#593954]/10 backdrop-blur-xl rounded-full px-6 py-2 mb-8 border border-[#013440]/10">
-              <Sparkles className="h-4 w-4 text-[#593954]" />
-              <span className="text-sm font-medium text-[#013440]">Inteligência Operacional</span>
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#5E17EB]/10 to-[#F80068]/10 backdrop-blur-xl rounded-full px-6 py-2 mb-8 border border-[#5E17EB]/20">
+              <Sparkles className="h-4 w-4 text-[#F80068]" />
+              <span className="text-sm font-medium text-[#5E17EB]">Inteligência Operacional</span>
             </div>
             
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-black mb-8 leading-[1.1] tracking-tight">
-              <span className="bg-gradient-to-r from-[#013440] to-[#593954] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#5E17EB] via-[#F80068] to-[#FA6101] bg-clip-text text-transparent">
                 Inteligência operacional
               </span>
               <br />
