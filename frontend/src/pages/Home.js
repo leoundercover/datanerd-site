@@ -97,7 +97,7 @@ const Home = () => {
             </div>
             
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-black mb-8 leading-[1.1] tracking-tight">
-              <span className="bg-gradient-to-r from-[#013440] via-[#026873] to-[#593954] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#013440] to-[#593954] bg-clip-text text-transparent">
                 Inteligência operacional
               </span>
               <br />
