@@ -202,7 +202,7 @@ const Home = () => {
       <section className="py-32 px-6 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black text-[#013440] mb-6 tracking-tight">Exemplos da vida real</h2>
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#00F5FF] to-[#22B9FF] bg-clip-text text-transparent mb-6 tracking-tight">Exemplos da vida real</h2>
             <p className="text-xl text-[#64748B] max-w-2xl mx-auto">
               Veja como transformamos operações do dia a dia
             </p>
