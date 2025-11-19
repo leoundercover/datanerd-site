@@ -113,7 +113,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 size="lg" 
-                className="group bg-gradient-to-r from-[#013440] to-[#593954] hover:shadow-2xl hover:shadow-[#013440]/30 text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
+                className="group bg-gradient-to-r from-[#5E17EB] to-[#F80068] hover:shadow-2xl hover:shadow-[#5E17EB]/40 text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
                 onClick={() => window.open('https://wa.me/5511981793555', '_blank')}
               >
                 Falar com a DataNerd
@@ -122,7 +122,7 @@ const Home = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-2 border-[#013440] text-[#013440] hover:bg-[#013440] hover:text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 backdrop-blur-xl hover:scale-105"
+                className="border-2 border-[#5E17EB] text-[#5E17EB] hover:bg-[#5E17EB] hover:text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 backdrop-blur-xl hover:scale-105"
                 asChild
               >
                 <Link to="/solucoes">Ver soluções</Link>
