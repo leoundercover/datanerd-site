@@ -93,15 +93,15 @@ const Header = () => {
             isMenuOpen ? 'max-h-96 opacity-100 mt-6' : 'max-h-0 opacity-0'
           }`}
         >
-          <nav className="flex flex-col gap-2 pb-4">
+          <nav className="flex flex-col gap-2 pb-4 bg-white rounded-2xl p-4 shadow-xl border border-gray-100">
             {navLinks.map((link, index) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-4 py-3 text-sm font-medium rounded-xl transition-all duration-300 ${
+                className={`px-4 py-3 text-sm font-semibold rounded-xl transition-all duration-300 ${
                   isActive(link.path)
-                    ? 'bg-gradient-to-r from-[#013440] to-[#593954] text-white'
-                    : 'text-[#64748B] hover:bg-[#013440]/5 hover:text-[#013440]'
+                    ? 'bg-gradient-to-r from-[#5E17EB] to-[#F80068] text-white'
+                    : 'text-[#0A0E1A] hover:bg-[#5E17EB]/10 hover:text-[#5E17EB]'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
                 style={{ animationDelay: `${index * 50}ms` }}
@@ -110,7 +110,7 @@ const Header = () => {
               </Link>
             ))}
             <Button
-              className="bg-gradient-to-r from-[#013440] to-[#593954] text-white rounded-xl px-4 py-3 text-sm font-medium mt-2 hover:shadow-lg transition-all duration-300"
+              className="bg-gradient-to-r from-[#5E17EB] to-[#F80068] text-white rounded-xl px-4 py-3 text-sm font-semibold mt-2 hover:shadow-lg hover:shadow-[#5E17EB]/30 transition-all duration-300"
               onClick={() => {
                 window.open('https://wa.me/5511981793555', '_blank');
                 setIsMenuOpen(false);
