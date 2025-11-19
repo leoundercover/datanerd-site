@@ -150,7 +150,7 @@ const Home = () => {
               return (
                 <Card 
                   key={index} 
-                  className={`modern-card group border-0 bg-white shadow-xl shadow-[#013440]/5 hover:shadow-2xl hover:shadow-[#013440]/10 rounded-3xl overflow-hidden transition-all duration-500 ${
+                  className={`modern-card group border-0 bg-white shadow-xl shadow-[#5E17EB]/5 hover:shadow-2xl hover:shadow-[#5E17EB]/15 rounded-3xl overflow-hidden transition-all duration-500 ${
                     index % 2 === 0 ? 'animate-fade-in-up' : 'animate-fade-in-up'
                   }`}
                   style={{ animationDelay: `${index * 100}ms` }}
