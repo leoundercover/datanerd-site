@@ -1,0 +1,37 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+  background-color: #038C8C;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #038C8C;
+  color: white;
+}
+
+/* Transitions for interactive elements */
+button,
+a {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Focus visible for accessibility */
+*:focus-visible {
+  outline: 2px solid #038C8C;
+  outline-offset: 2px;
+}
