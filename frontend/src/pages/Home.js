@@ -173,7 +173,7 @@ const Home = () => {
       <section className="py-32 px-6 bg-gradient-to-br from-[#F8F9FA] to-white relative overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black text-[#013440] mb-6 tracking-tight">Como pensamos</h2>
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#F80068] to-[#FA6101] bg-clip-text text-transparent mb-6 tracking-tight">Como pensamos</h2>
             <p className="text-xl text-[#64748B]">Princípios que guiam nosso trabalho</p>
           </div>
           
