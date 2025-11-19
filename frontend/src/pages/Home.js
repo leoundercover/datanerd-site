@@ -183,10 +183,10 @@ const Home = () => {
               return (
                 <div 
                   key={index} 
-                  className="group relative bg-white p-8 rounded-3xl border-2 border-transparent hover:border-[#593954]/20 transition-all duration-500 hover:shadow-xl hover:shadow-[#593954]/10 hover:-translate-y-2"
+                  className="group relative bg-white p-8 rounded-3xl border-2 border-transparent hover:border-[#5E17EB]/20 transition-all duration-500 hover:shadow-xl hover:shadow-[#5E17EB]/15 hover:-translate-y-2"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#013440] to-[#593954] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#5E17EB] to-[#F80068] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
                       <Icon className="h-6 w-6 text-white" />
                     </div>
                     <p className="text-xl text-[#0A0E1A] font-semibold leading-relaxed">{item.text}</p>
