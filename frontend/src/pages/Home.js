@@ -138,7 +138,7 @@ const Home = () => {
         
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black text-[#013440] mb-6 tracking-tight">Soluções</h2>
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#5E17EB] to-[#F80068] bg-clip-text text-transparent mb-6 tracking-tight">Soluções</h2>
             <p className="text-xl text-[#64748B] max-w-2xl mx-auto">
               Ferramentas inteligentes para organizar sua operação
             </p>
