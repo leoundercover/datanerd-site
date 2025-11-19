@@ -217,10 +217,10 @@ const Home = () => {
                   className="modern-card group border-0 bg-gradient-to-br from-white to-[#F8F9FA] shadow-lg hover:shadow-2xl rounded-3xl overflow-hidden transition-all duration-500"
                 >
                   <CardHeader className="p-6">
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#013440]/10 to-[#593954]/10 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
-                      <Icon className="h-7 w-7 text-[#013440]" />
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#5E17EB]/10 to-[#F80068]/10 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
+                      <Icon className="h-7 w-7 text-[#5E17EB]" />
                     </div>
-                    <CardTitle className="text-lg text-[#013440] font-bold mb-4">{case_.business}</CardTitle>
+                    <CardTitle className="text-lg text-[#0A0E1A] font-bold mb-4">{case_.business}</CardTitle>
                   </CardHeader>
                   <CardContent className="p-6 pt-0 space-y-4">
                     <div>
