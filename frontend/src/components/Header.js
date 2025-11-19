@@ -38,10 +38,10 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="group flex items-center gap-2">
             <div className="relative">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#013440] to-[#593954] rounded-xl transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300"></div>
-              <div className="absolute inset-0 w-10 h-10 bg-gradient-to-br from-[#593954] to-[#013440] rounded-xl blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+              <div className="w-10 h-10 bg-gradient-to-br from-[#5E17EB] to-[#F80068] rounded-xl transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300"></div>
+              <div className="absolute inset-0 w-10 h-10 bg-gradient-to-br from-[#F80068] to-[#5E17EB] rounded-xl blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
             </div>
-            <span className="text-xl font-bold text-[#013440] tracking-tight">DataNerd</span>
+            <span className="text-xl font-bold text-[#5E17EB] tracking-tight">DataNerd</span>
           </Link>
 
           {/* Desktop Navigation */}
