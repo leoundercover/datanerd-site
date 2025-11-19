@@ -128,7 +128,7 @@ const Sobre = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-32 px-6 bg-gradient-to-br from-[#013440] via-[#026873] to-[#593954] text-white relative overflow-hidden">
+      <section className="py-32 px-6 bg-gradient-to-br from-[#013440] via-[#1E293B] to-[#593954] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
