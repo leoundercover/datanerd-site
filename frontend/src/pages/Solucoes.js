@@ -16,7 +16,7 @@ const Solucoes = () => {
         'Histórico completo de interações',
         'Notificações inteligentes'
       ],
-      color: 'from-[#013440] to-[#026873]'
+      color: 'from-[#013440] to-[#1E293B]'
     },
     {
       icon: Calendar,
@@ -52,7 +52,7 @@ const Solucoes = () => {
         'Integração com sistemas existentes',
         'Suporte dedicado'
       ],
-      color: 'from-[#593954] to-[#026873]'
+      color: 'from-[#593954] to-[#1E293B]'
     }
   ];
 
