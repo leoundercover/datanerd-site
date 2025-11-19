@@ -10,19 +10,19 @@ const Sobre = () => {
       icon: Target,
       title: 'Foco no essencial',
       description: 'Não fazemos nada desnecessário. Cada solução é pensada para resolver problemas reais, sem complicação.',
-      color: 'from-[#5E17EB] to-[#FA6101]'
+      color: 'from-[#035AA6] to-[#8593A6]'
     },
     {
       icon: Zap,
       title: 'Simplicidade eficiente',
       description: 'Inteligência não precisa ser complexa. Criamos ferramentas que funcionam naturalmente no dia a dia.',
-      color: 'from-[#F80068] to-[#5E17EB]'
+      color: 'from-[#457ABF] to-[#035AA6]'
     },
     {
       icon: Heart,
       title: 'Entendemos sua rotina',
       description: 'Somos formados por pessoas que já viveram a correria de pequenos e médios negócios.',
-      color: 'from-[#5E17EB] to-[#F80068]'
+      color: 'from-[#035AA6] to-[#457ABF]'
     }
   ];
 
@@ -31,12 +31,12 @@ const Sobre = () => {
       {/* Hero Section */}
       <section className="relative py-24 px-6 bg-gradient-to-br from-white via-[#F8F9FA] to-white overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-20 right-20 w-96 h-96 bg-[#5E17EB]/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#F80068]/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-20 right-20 w-96 h-96 bg-[#035AA6]/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#457ABF]/5 rounded-full blur-3xl"></div>
         </div>
         
         <div className="relative max-w-6xl mx-auto text-center">
-          <h1 className="text-6xl md:text-7xl font-black text-[#5E17EB] mb-6 tracking-tight">Sobre a DataNerd</h1>
+          <h1 className="text-6xl md:text-7xl font-black text-[#035AA6] mb-6 tracking-tight">Sobre a DataNerd</h1>
           <p className="text-xl md:text-2xl text-[#64748B] max-w-3xl mx-auto">
             Inteligência operacional feita por quem entende de rotina
           </p>
@@ -46,7 +46,7 @@ const Sobre = () => {
       {/* Mission Section */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
-          <Card className="border-0 bg-gradient-to-br from-[#5E17EB] via-[#FA6101] to-[#F80068] text-white shadow-2xl rounded-[3rem] overflow-hidden modern-card">
+          <Card className="border-0 bg-gradient-to-br from-[#035AA6] via-[#8593A6] to-[#457ABF] text-white shadow-2xl rounded-[3rem] overflow-hidden modern-card">
             <div className="absolute inset-0 opacity-10">
               <div className="absolute inset-0" style={{
                 backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
@@ -72,7 +72,7 @@ const Sobre = () => {
       <section className="py-24 px-6 bg-gradient-to-br from-[#F8F9FA] to-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black text-[#5E17EB] mb-6 tracking-tight">Nossos valores</h2>
+            <h2 className="text-5xl md:text-6xl font-black text-[#035AA6] mb-6 tracking-tight">Nossos valores</h2>
             <p className="text-xl text-[#64748B]">O que nos move todos os dias</p>
           </div>
           
@@ -88,7 +88,7 @@ const Sobre = () => {
                     <div className={`w-16 h-16 bg-gradient-to-br ${value.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg`}>
                       <Icon className="h-8 w-8 text-white" />
                     </div>
-                    <CardTitle className="text-2xl text-[#5E17EB] font-bold mb-4">{value.title}</CardTitle>
+                    <CardTitle className="text-2xl text-[#035AA6] font-bold mb-4">{value.title}</CardTitle>
                   </CardHeader>
                   <CardContent className="p-8 pt-0">
                     <p className="text-[#64748B] text-base leading-relaxed">{value.description}</p>
@@ -103,7 +103,7 @@ const Sobre = () => {
       {/* Story Section */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-5xl font-black text-[#5E17EB] mb-12 text-center tracking-tight">Como começamos</h2>
+          <h2 className="text-5xl font-black text-[#035AA6] mb-12 text-center tracking-tight">Como começamos</h2>
           <div className="space-y-8 text-lg text-[#64748B] leading-relaxed">
             <p className="text-xl">
               A DataNerd nasceu da experiência de quem viveu na pele os desafios de gerenciar operações 
@@ -117,8 +117,8 @@ const Sobre = () => {
               Decidimos criar algo no meio do caminho: ferramentas inteligentes, mas simples. 
               Tecnologia que funciona sem precisar de especialista para operar.
             </p>
-            <div className="bg-gradient-to-r from-[#5E17EB]/5 to-[#F80068]/5 p-8 rounded-3xl border-l-4 border-[#F80068]">
-              <p className="text-xl font-bold text-[#5E17EB]">
+            <div className="bg-gradient-to-r from-[#035AA6]/5 to-[#457ABF]/5 p-8 rounded-3xl border-l-4 border-[#457ABF]">
+              <p className="text-xl font-bold text-[#035AA6]">
                 Hoje, ajudamos clínicas, escritórios, academias, profissionais autônomos e pequenos negócios 
                 a terem mais controle, menos retrabalho e mais tempo para o que realmente importa.
               </p>
@@ -128,7 +128,7 @@ const Sobre = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-32 px-6 bg-gradient-to-br from-[#5E17EB] via-[#FA6101] to-[#F80068] text-white relative overflow-hidden">
+      <section className="py-32 px-6 bg-gradient-to-br from-[#035AA6] via-[#8593A6] to-[#457ABF] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
@@ -143,7 +143,7 @@ const Sobre = () => {
           </p>
           <Button 
             size="lg" 
-            className="group bg-white text-[#5E17EB] hover:bg-white/90 hover:shadow-2xl text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
+            className="group bg-white text-[#035AA6] hover:bg-white/90 hover:shadow-2xl text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
             asChild
           >
             <Link to="/contato">

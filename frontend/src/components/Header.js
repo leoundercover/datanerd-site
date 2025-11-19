@@ -38,10 +38,10 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="group flex items-center gap-2">
             <div className="relative">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#5E17EB] to-[#F80068] rounded-xl transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300"></div>
-              <div className="absolute inset-0 w-10 h-10 bg-gradient-to-br from-[#F80068] to-[#5E17EB] rounded-xl blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+              <div className="w-10 h-10 bg-gradient-to-br from-[#035AA6] to-[#457ABF] rounded-xl transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300"></div>
+              <div className="absolute inset-0 w-10 h-10 bg-gradient-to-br from-[#457ABF] to-[#035AA6] rounded-xl blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
             </div>
-            <span className="text-xl font-bold text-[#5E17EB] tracking-tight">DataNerd</span>
+            <span className="text-xl font-bold text-[#035AA6] tracking-tight">DataNerd</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -52,13 +52,13 @@ const Header = () => {
                 to={link.path}
                 className={`relative px-5 py-2 text-sm font-medium transition-all duration-300 rounded-lg group ${
                   isActive(link.path)
-                    ? 'text-[#5E17EB]'
-                    : 'text-[#64748B] hover:text-[#5E17EB]'
+                    ? 'text-[#035AA6]'
+                    : 'text-[#64748B] hover:text-[#035AA6]'
                 }`}
               >
                 {link.label}
                 <span 
-                  className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-gradient-to-r from-[#5E17EB] to-[#F80068] transition-all duration-300 ${
+                  className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-gradient-to-r from-[#035AA6] to-[#457ABF] transition-all duration-300 ${
                     isActive(link.path) ? 'w-8' : 'w-0 group-hover:w-8'
                   }`}
                 ></span>
@@ -69,7 +69,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button
-              className="bg-gradient-to-r from-[#5E17EB] to-[#F80068] hover:shadow-xl hover:shadow-[#5E17EB]/30 text-white rounded-xl px-6 py-2.5 text-sm font-medium transition-all duration-300 hover:scale-105 group"
+              className="bg-gradient-to-r from-[#035AA6] to-[#457ABF] hover:shadow-xl hover:shadow-[#035AA6]/30 text-white rounded-xl px-6 py-2.5 text-sm font-medium transition-all duration-300 hover:scale-105 group"
               onClick={() => window.open('https://wa.me/5511981793555', '_blank')}
             >
               Falar com a DataNerd
@@ -79,7 +79,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-[#5E17EB] p-2 hover:bg-[#5E17EB]/5 rounded-lg transition-colors duration-300"
+            className="md:hidden text-[#035AA6] p-2 hover:bg-[#035AA6]/5 rounded-lg transition-colors duration-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -100,8 +100,8 @@ const Header = () => {
                 to={link.path}
                 className={`px-4 py-3 text-sm font-semibold rounded-xl transition-all duration-300 ${
                   isActive(link.path)
-                    ? 'bg-gradient-to-r from-[#5E17EB] to-[#F80068] text-white'
-                    : 'text-[#0A0E1A] hover:bg-[#5E17EB]/10 hover:text-[#5E17EB]'
+                    ? 'bg-gradient-to-r from-[#035AA6] to-[#457ABF] text-white'
+                    : 'text-[#0A0E1A] hover:bg-[#035AA6]/10 hover:text-[#035AA6]'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
                 style={{ animationDelay: `${index * 50}ms` }}
@@ -110,7 +110,7 @@ const Header = () => {
               </Link>
             ))}
             <Button
-              className="bg-gradient-to-r from-[#5E17EB] to-[#F80068] text-white rounded-xl px-4 py-3 text-sm font-semibold mt-2 hover:shadow-lg hover:shadow-[#5E17EB]/30 transition-all duration-300"
+              className="bg-gradient-to-r from-[#035AA6] to-[#457ABF] text-white rounded-xl px-4 py-3 text-sm font-semibold mt-2 hover:shadow-lg hover:shadow-[#035AA6]/30 transition-all duration-300"
               onClick={() => {
                 window.open('https://wa.me/5511981793555', '_blank');
                 setIsMenuOpen(false);

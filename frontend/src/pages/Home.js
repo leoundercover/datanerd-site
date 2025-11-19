@@ -16,25 +16,25 @@ const Home = () => {
       icon: MessageSquare,
       title: 'Atendimento Inteligente',
       description: 'Organize conversas, automatize respostas e mantenha o controle da sua comunicação.',
-      color: 'from-[#5E17EB] to-[#F80068]'
+      color: 'from-[#035AA6] to-[#457ABF]'
     },
     {
       icon: Calendar,
       title: 'Agendamentos Inteligentes',
       description: 'Gestão completa de horários, lembretes automáticos e controle de agenda.',
-      color: 'from-[#00F5FF] to-[#22B9FF]'
+      color: 'from-[#ACCAF2] to-[#1D4B73]'
     },
     {
       icon: Users,
       title: 'NerdHire',
       description: 'Processos seletivos organizados, do anúncio à contratação.',
-      color: 'from-[#F80068] to-[#FA6101]'
+      color: 'from-[#457ABF] to-[#8593A6]'
     },
     {
       icon: Lightbulb,
       title: 'Projetos sob medida',
       description: 'Soluções personalizadas para necessidades específicas do seu negócio.',
-      color: 'from-[#FA6101] to-[#5E17EB]'
+      color: 'from-[#8593A6] to-[#035AA6]'
     }
   ];
 
@@ -82,22 +82,22 @@ const Home = () => {
       <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-[#F8F9FA] to-white">
         {/* Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 right-20 w-96 h-96 bg-[#5E17EB]/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#F80068]/10 rounded-full blur-3xl"></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[#00F5FF]/8 to-[#22B9FF]/8 rounded-full blur-3xl"></div>
+          <div className="absolute top-20 right-20 w-96 h-96 bg-[#035AA6]/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#457ABF]/10 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[#ACCAF2]/8 to-[#1D4B73]/8 rounded-full blur-3xl"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-6 py-20">
           <div className={`max-w-4xl mx-auto text-center transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#5E17EB]/10 to-[#F80068]/10 backdrop-blur-xl rounded-full px-6 py-2 mb-8 border border-[#5E17EB]/20">
-              <Sparkles className="h-4 w-4 text-[#F80068]" />
-              <span className="text-sm font-medium text-[#5E17EB]">Inteligência Operacional</span>
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#035AA6]/10 to-[#457ABF]/10 backdrop-blur-xl rounded-full px-6 py-2 mb-8 border border-[#035AA6]/20">
+              <Sparkles className="h-4 w-4 text-[#457ABF]" />
+              <span className="text-sm font-medium text-[#035AA6]">Inteligência Operacional</span>
             </div>
             
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-black mb-8 leading-[1.1] tracking-tight">
-              <span className="bg-gradient-to-r from-[#5E17EB] via-[#F80068] to-[#FA6101] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#035AA6] via-[#457ABF] to-[#8593A6] bg-clip-text text-transparent">
                 Inteligência operacional
               </span>
               <br />
@@ -113,7 +113,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 size="lg" 
-                className="group bg-gradient-to-r from-[#5E17EB] to-[#F80068] hover:shadow-2xl hover:shadow-[#5E17EB]/40 text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
+                className="group bg-gradient-to-r from-[#035AA6] to-[#457ABF] hover:shadow-2xl hover:shadow-[#035AA6]/40 text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
                 onClick={() => window.open('https://wa.me/5511981793555', '_blank')}
               >
                 Falar com a DataNerd
@@ -122,7 +122,7 @@ const Home = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-2 border-[#5E17EB] text-[#5E17EB] hover:bg-[#5E17EB] hover:text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 backdrop-blur-xl hover:scale-105"
+                className="border-2 border-[#035AA6] text-[#035AA6] hover:bg-[#035AA6] hover:text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 backdrop-blur-xl hover:scale-105"
                 asChild
               >
                 <Link to="/solucoes">Ver soluções</Link>
@@ -138,7 +138,7 @@ const Home = () => {
         
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#5E17EB] to-[#F80068] bg-clip-text text-transparent mb-6 tracking-tight">Soluções</h2>
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#035AA6] to-[#457ABF] bg-clip-text text-transparent mb-6 tracking-tight">Soluções</h2>
             <p className="text-xl text-[#64748B] max-w-2xl mx-auto">
               Ferramentas inteligentes para organizar sua operação
             </p>
@@ -150,7 +150,7 @@ const Home = () => {
               return (
                 <Card 
                   key={index} 
-                  className={`modern-card group border-0 bg-white shadow-xl shadow-[#5E17EB]/5 hover:shadow-2xl hover:shadow-[#5E17EB]/15 rounded-3xl overflow-hidden transition-all duration-500 ${
+                  className={`modern-card group border-0 bg-white shadow-xl shadow-[#035AA6]/5 hover:shadow-2xl hover:shadow-[#035AA6]/15 rounded-3xl overflow-hidden transition-all duration-500 ${
                     index % 2 === 0 ? 'animate-fade-in-up' : 'animate-fade-in-up'
                   }`}
                   style={{ animationDelay: `${index * 100}ms` }}
@@ -173,7 +173,7 @@ const Home = () => {
       <section className="py-32 px-6 bg-gradient-to-br from-[#F8F9FA] to-white relative overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#F80068] to-[#FA6101] bg-clip-text text-transparent mb-6 tracking-tight">Como pensamos</h2>
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#457ABF] to-[#8593A6] bg-clip-text text-transparent mb-6 tracking-tight">Como pensamos</h2>
             <p className="text-xl text-[#64748B]">Princípios que guiam nosso trabalho</p>
           </div>
           
@@ -183,10 +183,10 @@ const Home = () => {
               return (
                 <div 
                   key={index} 
-                  className="group relative bg-white p-8 rounded-3xl border-2 border-transparent hover:border-[#5E17EB]/20 transition-all duration-500 hover:shadow-xl hover:shadow-[#5E17EB]/15 hover:-translate-y-2"
+                  className="group relative bg-white p-8 rounded-3xl border-2 border-transparent hover:border-[#035AA6]/20 transition-all duration-500 hover:shadow-xl hover:shadow-[#035AA6]/15 hover:-translate-y-2"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#5E17EB] to-[#F80068] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#035AA6] to-[#457ABF] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
                       <Icon className="h-6 w-6 text-white" />
                     </div>
                     <p className="text-xl text-[#0A0E1A] font-semibold leading-relaxed">{item.text}</p>
@@ -202,7 +202,7 @@ const Home = () => {
       <section className="py-32 px-6 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#00F5FF] to-[#22B9FF] bg-clip-text text-transparent mb-6 tracking-tight">Exemplos da vida real</h2>
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-[#ACCAF2] to-[#1D4B73] bg-clip-text text-transparent mb-6 tracking-tight">Exemplos da vida real</h2>
             <p className="text-xl text-[#64748B] max-w-2xl mx-auto">
               Veja como transformamos operações do dia a dia
             </p>
@@ -217,8 +217,8 @@ const Home = () => {
                   className="modern-card group border-0 bg-gradient-to-br from-white to-[#F8F9FA] shadow-lg hover:shadow-2xl rounded-3xl overflow-hidden transition-all duration-500"
                 >
                   <CardHeader className="p-6">
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#5E17EB]/10 to-[#F80068]/10 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
-                      <Icon className="h-7 w-7 text-[#5E17EB]" />
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#035AA6]/10 to-[#457ABF]/10 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
+                      <Icon className="h-7 w-7 text-[#035AA6]" />
                     </div>
                     <CardTitle className="text-lg text-[#0A0E1A] font-bold mb-4">{case_.business}</CardTitle>
                   </CardHeader>
@@ -228,11 +228,11 @@ const Home = () => {
                       <p className="text-sm text-[#0A0E1A]">{case_.challenge}</p>
                     </div>
                     <div>
-                      <p className="text-xs font-semibold text-[#F80068] mb-1 uppercase tracking-wide">Solução</p>
+                      <p className="text-xs font-semibold text-[#457ABF] mb-1 uppercase tracking-wide">Solução</p>
                       <p className="text-sm text-[#0A0E1A]">{case_.solution}</p>
                     </div>
-                    <div className="pt-2 border-t border-[#5E17EB]/10">
-                      <p className="text-sm font-bold text-[#5E17EB]">{case_.impact}</p>
+                    <div className="pt-2 border-t border-[#035AA6]/10">
+                      <p className="text-sm font-bold text-[#035AA6]">{case_.impact}</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -243,7 +243,7 @@ const Home = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-32 px-6 bg-gradient-to-br from-[#5E17EB] via-[#F80068] to-[#FA6101] text-white relative overflow-hidden">
+      <section className="py-32 px-6 bg-gradient-to-br from-[#035AA6] via-[#457ABF] to-[#8593A6] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
@@ -265,12 +265,12 @@ const Home = () => {
       {/* Final CTA Section */}
       <section className="py-32 px-6 bg-white relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#5E17EB]/8 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#F80068]/8 rounded-full blur-3xl"></div>
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#035AA6]/8 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#457ABF]/8 rounded-full blur-3xl"></div>
         </div>
         
         <div className="relative max-w-5xl mx-auto text-center">
-          <h2 className="text-5xl md:text-7xl font-black bg-gradient-to-r from-[#5E17EB] to-[#F80068] bg-clip-text text-transparent mb-8 tracking-tight leading-tight">
+          <h2 className="text-5xl md:text-7xl font-black bg-gradient-to-r from-[#035AA6] to-[#457ABF] bg-clip-text text-transparent mb-8 tracking-tight leading-tight">
             Pronto para organizar<br />sua operação?
           </h2>
           <p className="text-xl text-[#64748B] mb-12 max-w-2xl mx-auto">
@@ -278,7 +278,7 @@ const Home = () => {
           </p>
           <Button 
             size="lg" 
-            className="group bg-gradient-to-r from-[#5E17EB] to-[#F80068] hover:shadow-2xl hover:shadow-[#5E17EB]/40 text-white text-xl px-14 py-8 rounded-2xl transition-all duration-500 hover:scale-105"
+            className="group bg-gradient-to-r from-[#035AA6] to-[#457ABF] hover:shadow-2xl hover:shadow-[#035AA6]/40 text-white text-xl px-14 py-8 rounded-2xl transition-all duration-500 hover:scale-105"
             asChild
           >
             <Link to="/contato">

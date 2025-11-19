@@ -20,7 +20,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="relative bg-gradient-to-br from-[#0A0E1A] via-[#5E17EB] to-[#F80068] text-white overflow-hidden">
+    <footer className="relative bg-gradient-to-br from-[#0A0E1A] via-[#035AA6] to-[#457ABF] text-white overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
