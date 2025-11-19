@@ -16,7 +16,7 @@ const Home = () => {
       icon: MessageSquare,
       title: 'Atendimento Inteligente',
       description: 'Organize conversas, automatize respostas e mantenha o controle da sua comunicação.',
-      color: 'from-[#013440] to-[#026873]'
+      color: 'from-[#013440] to-[#1E293B]'
     },
     {
       icon: Calendar,
@@ -34,7 +34,7 @@ const Home = () => {
       icon: Lightbulb,
       title: 'Projetos sob medida',
       description: 'Soluções personalizadas para necessidades específicas do seu negócio.',
-      color: 'from-[#593954] to-[#026873]'
+      color: 'from-[#593954] to-[#1E293B]'
     }
   ];
 
