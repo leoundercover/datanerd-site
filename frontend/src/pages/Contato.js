@@ -11,7 +11,7 @@ const Contato = () => {
       description: 'Resposta rápida no seu mensageiro favorito',
       action: '(11) 98179-3555',
       link: 'https://wa.me/5511981793555',
-      color: 'from-[#013440] to-[#026873]'
+      color: 'from-[#013440] to-[#1E293B]'
     },
     {
       icon: Mail,
