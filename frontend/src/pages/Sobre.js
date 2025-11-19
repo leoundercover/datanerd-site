@@ -46,7 +46,7 @@ const Sobre = () => {
       {/* Mission Section */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
-          <Card className="border-0 bg-gradient-to-br from-[#013440] via-[#026873] to-[#593954] text-white shadow-2xl rounded-[3rem] overflow-hidden modern-card">
+          <Card className="border-0 bg-gradient-to-br from-[#013440] via-[#1E293B] to-[#593954] text-white shadow-2xl rounded-[3rem] overflow-hidden modern-card">
             <div className="absolute inset-0 opacity-10">
               <div className="absolute inset-0" style={{
                 backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
