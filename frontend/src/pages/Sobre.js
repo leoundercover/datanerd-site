@@ -10,7 +10,7 @@ const Sobre = () => {
       icon: Target,
       title: 'Foco no essencial',
       description: 'Não fazemos nada desnecessário. Cada solução é pensada para resolver problemas reais, sem complicação.',
-      color: 'from-[#013440] to-[#026873]'
+      color: 'from-[#013440] to-[#1E293B]'
     },
     {
       icon: Zap,
