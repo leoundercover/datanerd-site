@@ -69,7 +69,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button
-              className="bg-gradient-to-r from-[#013440] to-[#593954] hover:shadow-xl hover:shadow-[#013440]/20 text-white rounded-xl px-6 py-2.5 text-sm font-medium transition-all duration-300 hover:scale-105 group"
+              className="bg-gradient-to-r from-[#5E17EB] to-[#F80068] hover:shadow-xl hover:shadow-[#5E17EB]/30 text-white rounded-xl px-6 py-2.5 text-sm font-medium transition-all duration-300 hover:scale-105 group"
               onClick={() => window.open('https://wa.me/5511981793555', '_blank')}
             >
               Falar com a DataNerd
