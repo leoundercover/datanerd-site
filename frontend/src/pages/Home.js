@@ -265,12 +265,12 @@ const Home = () => {
       {/* Final CTA Section */}
       <section className="py-32 px-6 bg-white relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#013440]/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#593954]/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#5E17EB]/8 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#F80068]/8 rounded-full blur-3xl"></div>
         </div>
         
         <div className="relative max-w-5xl mx-auto text-center">
-          <h2 className="text-5xl md:text-7xl font-black text-[#013440] mb-8 tracking-tight leading-tight">
+          <h2 className="text-5xl md:text-7xl font-black bg-gradient-to-r from-[#5E17EB] to-[#F80068] bg-clip-text text-transparent mb-8 tracking-tight leading-tight">
             Pronto para organizar<br />sua operação?
           </h2>
           <p className="text-xl text-[#64748B] mb-12 max-w-2xl mx-auto">
@@ -278,7 +278,7 @@ const Home = () => {
           </p>
           <Button 
             size="lg" 
-            className="group bg-gradient-to-r from-[#013440] to-[#593954] hover:shadow-2xl hover:shadow-[#013440]/30 text-white text-xl px-14 py-8 rounded-2xl transition-all duration-500 hover:scale-105"
+            className="group bg-gradient-to-r from-[#5E17EB] to-[#F80068] hover:shadow-2xl hover:shadow-[#5E17EB]/40 text-white text-xl px-14 py-8 rounded-2xl transition-all duration-500 hover:scale-105"
             asChild
           >
             <Link to="/contato">
