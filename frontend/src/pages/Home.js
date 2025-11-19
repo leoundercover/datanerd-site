@@ -16,25 +16,25 @@ const Home = () => {
       icon: MessageSquare,
       title: 'Atendimento Inteligente',
       description: 'Organize conversas, automatize respostas e mantenha o controle da sua comunicação.',
-      color: 'from-[#013440] to-[#1E293B]'
+      color: 'from-[#5E17EB] to-[#F80068]'
     },
     {
       icon: Calendar,
       title: 'Agendamentos Inteligentes',
       description: 'Gestão completa de horários, lembretes automáticos e controle de agenda.',
-      color: 'from-[#593954] to-[#013440]'
+      color: 'from-[#00F5FF] to-[#22B9FF]'
     },
     {
       icon: Users,
       title: 'NerdHire',
       description: 'Processos seletivos organizados, do anúncio à contratação.',
-      color: 'from-[#013440] to-[#593954]'
+      color: 'from-[#F80068] to-[#FA6101]'
     },
     {
       icon: Lightbulb,
       title: 'Projetos sob medida',
       description: 'Soluções personalizadas para necessidades específicas do seu negócio.',
-      color: 'from-[#593954] to-[#1E293B]'
+      color: 'from-[#FA6101] to-[#5E17EB]'
     }
   ];
 
