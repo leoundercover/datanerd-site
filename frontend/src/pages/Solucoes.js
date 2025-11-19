@@ -16,7 +16,7 @@ const Solucoes = () => {
         'Histórico completo de interações',
         'Notificações inteligentes'
       ],
-      color: 'from-[#013440] to-[#1E293B]'
+      color: 'from-[#5E17EB] to-[#FA6101]'
     },
     {
       icon: Calendar,
@@ -28,7 +28,7 @@ const Solucoes = () => {
         'Gestão de cancelamentos e remarcações',
         'Relatórios de ocupação'
       ],
-      color: 'from-[#593954] to-[#013440]'
+      color: 'from-[#F80068] to-[#5E17EB]'
     },
     {
       icon: Users,
@@ -40,7 +40,7 @@ const Solucoes = () => {
         'Organização de entrevistas',
         'Acompanhamento do processo'
       ],
-      color: 'from-[#013440] to-[#593954]'
+      color: 'from-[#5E17EB] to-[#F80068]'
     },
     {
       icon: Lightbulb,
@@ -52,7 +52,7 @@ const Solucoes = () => {
         'Integração com sistemas existentes',
         'Suporte dedicado'
       ],
-      color: 'from-[#593954] to-[#1E293B]'
+      color: 'from-[#F80068] to-[#FA6101]'
     }
   ];
 
@@ -61,12 +61,12 @@ const Solucoes = () => {
       {/* Hero Section */}
       <section className="relative py-24 px-6 bg-gradient-to-br from-white via-[#F8F9FA] to-white overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-20 right-20 w-96 h-96 bg-[#013440]/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#593954]/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-20 right-20 w-96 h-96 bg-[#5E17EB]/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#F80068]/5 rounded-full blur-3xl"></div>
         </div>
         
         <div className="relative max-w-6xl mx-auto text-center">
-          <h1 className="text-6xl md:text-7xl font-black text-[#013440] mb-6 tracking-tight">Nossas Soluções</h1>
+          <h1 className="text-6xl md:text-7xl font-black text-[#5E17EB] mb-6 tracking-tight">Nossas Soluções</h1>
           <p className="text-xl md:text-2xl text-[#64748B] max-w-3xl mx-auto">
             Inteligência operacional aplicada às necessidades reais do seu negócio
           </p>
@@ -91,15 +91,15 @@ const Solucoes = () => {
                       <div className={`w-20 h-20 bg-gradient-to-br ${solution.color} rounded-2xl flex items-center justify-center mb-6 shadow-xl`}>
                         <Icon className="h-10 w-10 text-white" />
                       </div>
-                      <CardTitle className="text-4xl text-[#013440] font-black mb-4 tracking-tight">{solution.title}</CardTitle>
+                      <CardTitle className="text-4xl text-[#5E17EB] font-black mb-4 tracking-tight">{solution.title}</CardTitle>
                       <CardDescription className="text-lg text-[#64748B] leading-relaxed">{solution.description}</CardDescription>
                     </CardHeader>
                     <CardContent className="p-10 pt-0">
                       <div className="space-y-4">
                         {solution.features.map((feature, fIndex) => (
                           <div key={fIndex} className="flex items-start gap-4 group">
-                            <div className="w-6 h-6 bg-gradient-to-br from-[#593954]/10 to-[#013440]/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                              <CheckCircle2 className="h-4 w-4 text-[#593954]" />
+                            <div className="w-6 h-6 bg-gradient-to-br from-[#F80068]/10 to-[#5E17EB]/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                              <CheckCircle2 className="h-4 w-4 text-[#F80068]" />
                             </div>
                             <p className="text-[#0A0E1A] font-medium">{feature}</p>
                           </div>
@@ -125,19 +125,19 @@ const Solucoes = () => {
       {/* CTA Section */}
       <section className="py-32 px-6 bg-gradient-to-br from-[#F8F9FA] to-white relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#013440]/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#593954]/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#5E17EB]/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#F80068]/5 rounded-full blur-3xl"></div>
         </div>
         
         <div className="relative max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl md:text-6xl font-black text-[#013440] mb-6 tracking-tight">Qual solução faz sentido para você?</h2>
+          <h2 className="text-5xl md:text-6xl font-black text-[#5E17EB] mb-6 tracking-tight">Qual solução faz sentido para você?</h2>
           <p className="text-xl text-[#64748B] mb-12">
             Vamos conversar sobre como podemos organizar sua operação
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              className="group bg-gradient-to-r from-[#013440] to-[#593954] hover:shadow-2xl hover:shadow-[#013440]/30 text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
+              className="group bg-gradient-to-r from-[#5E17EB] to-[#F80068] hover:shadow-2xl hover:shadow-[#5E17EB]/30 text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
               onClick={() => window.open('https://wa.me/5511981793555', '_blank')}
             >
               Falar no WhatsApp
@@ -146,7 +146,7 @@ const Solucoes = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-2 border-[#013440] text-[#013440] hover:bg-[#013440] hover:text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
+              className="border-2 border-[#5E17EB] text-[#5E17EB] hover:bg-[#5E17EB] hover:text-white text-lg px-10 py-7 rounded-2xl transition-all duration-500 hover:scale-105"
               asChild
             >
               <Link to="/contato">Enviar mensagem</Link>
