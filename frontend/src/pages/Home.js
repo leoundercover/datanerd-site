@@ -159,7 +159,7 @@ const Home = () => {
                     <div className={`w-16 h-16 bg-gradient-to-br ${solution.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg`}>
                       <Icon className="h-8 w-8 text-white" />
                     </div>
-                    <CardTitle className="text-2xl text-[#013440] font-bold mb-3">{solution.title}</CardTitle>
+                    <CardTitle className="text-2xl text-[#0A0E1A] font-bold mb-3">{solution.title}</CardTitle>
                     <CardDescription className="text-[#64748B] text-base leading-relaxed">{solution.description}</CardDescription>
                   </CardHeader>
                 </Card>
