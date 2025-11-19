@@ -228,7 +228,7 @@ const Home = () => {
                       <p className="text-sm text-[#0A0E1A]">{case_.challenge}</p>
                     </div>
                     <div>
-                      <p className="text-xs font-semibold text-[#593954] mb-1 uppercase tracking-wide">Solução</p>
+                      <p className="text-xs font-semibold text-[#F80068] mb-1 uppercase tracking-wide">Solução</p>
                       <p className="text-sm text-[#0A0E1A]">{case_.solution}</p>
                     </div>
                     <div className="pt-2 border-t border-[#013440]/10">
