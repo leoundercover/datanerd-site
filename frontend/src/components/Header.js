@@ -52,13 +52,13 @@ const Header = () => {
                 to={link.path}
                 className={`relative px-5 py-2 text-sm font-medium transition-all duration-300 rounded-lg group ${
                   isActive(link.path)
-                    ? 'text-[#013440]'
-                    : 'text-[#64748B] hover:text-[#013440]'
+                    ? 'text-[#5E17EB]'
+                    : 'text-[#64748B] hover:text-[#5E17EB]'
                 }`}
               >
                 {link.label}
                 <span 
-                  className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-gradient-to-r from-[#013440] to-[#593954] transition-all duration-300 ${
+                  className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-gradient-to-r from-[#5E17EB] to-[#F80068] transition-all duration-300 ${
                     isActive(link.path) ? 'w-8' : 'w-0 group-hover:w-8'
                   }`}
                 ></span>
