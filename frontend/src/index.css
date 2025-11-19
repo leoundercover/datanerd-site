@@ -72,12 +72,12 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #5E17EB;
+  background: #035AA6;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #F80068;
+  background: #457ABF;
 }
 
 /* Animations */
