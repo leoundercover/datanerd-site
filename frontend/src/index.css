@@ -38,12 +38,12 @@ body {
 
 /* Custom Selection */
 ::selection {
-  background-color: #5E17EB;
+  background-color: #035AA6;
   color: white;
 }
 
 ::-moz-selection {
-  background-color: #5E17EB;
+  background-color: #035AA6;
   color: white;
 }
 
