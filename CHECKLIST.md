@@ -1,9 +1,13 @@
-# ✅ Checklist de Deploy - DataNerd
+# ✅# Checklist de Deploy - DataNerd
+
+## Pré-requisitos
+- [ ] Acesso ao servidor (SSH)
+- [ ] Docker e Docker Compose instalados
+- [ ] Domínio configurado (DNS)s
 
 ## 📋 Antes do Deploy
 
 ### Preparação do Código
-- [x] Todas as referências ao Emergent foram removidas
 - [x] Footer atualizado sem menções externas
 - [x] README.md criado com instruções completas
 - [x] Paleta de cores configurada (#035AA6, #457ABF, #ACCAF2, #8593A6, #1D4B73)

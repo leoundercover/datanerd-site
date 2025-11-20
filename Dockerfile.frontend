@@ -3,14 +3,24 @@ FROM node:16-alpine AS builder
 WORKDIR /app
 
 # Copy package files
-COPY frontend/package.json frontend/yarn.lock ./
-RUN yarn install --frozen-lockfile
+COPY frontend/package.json ./
+
+# Install dependencies (use npm if yarn.lock doesn't exist)
+RUN if [ -f yarn.lock ]; then \
+  yarn install --frozen-lockfile; \
+  else \
+  npm install --legacy-peer-deps; \
+  fi
 
 # Copy source code
 COPY frontend/ .
 
 # Build the app
-RUN yarn build
+RUN if [ -f yarn.lock ]; then \
+  yarn build; \
+  else \
+  npm run build; \
+  fi
 
 # Production stage
 FROM nginx:alpine
@@ -26,3 +36,4 @@ EXPOSE 80
 
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
+
