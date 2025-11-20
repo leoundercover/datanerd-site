@@ -143,9 +143,6 @@ const Footer = () => {
             <p className="text-white/60 text-sm">
               © {currentYear} DataNerd. Todos os direitos reservados.
             </p>
-            <p className="text-white/40 text-xs">
-              Desenvolvido com inteligência e simplicidade
-            </p>
           </div>
         </div>
       </div>
