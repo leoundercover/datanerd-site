@@ -5,7 +5,7 @@
 Sua connection string do MongoDB Atlas está pronta para uso:
 
 ```
-mongodb+srv://nerdsite:u8ftXY6vMkMtiK66@datanerd-site.m92cjuk.mongodb.net/?appName=datanerd-site
+mongodb+srv://<usuario>:<senha>@cluster0.xxxxx.mongodb.net/?appName=datanerd-site
 ```
 
 ---
@@ -19,7 +19,7 @@ Adicione estas variáveis no painel da Vercel (Settings → Environment Variable
 #### Para o Backend:
 | Nome | Valor |
 |------|-------|
-| `MONGO_URL` | `mongodb+srv://nerdsite:u8ftXY6vMkMtiK66@datanerd-site.m92cjuk.mongodb.net/?appName=datanerd-site` |
+| `MONGO_URL` | `mongodb+srv://<usuario>:<senha>@cluster0.xxxxx.mongodb.net/?appName=datanerd-site` |
 | `DB_NAME` | `datanerd` |
 | `CORS_ORIGINS` | `*` (ou seu domínio específico depois) |
 
@@ -35,7 +35,7 @@ Adicione estas variáveis no painel da Vercel (Settings → Environment Variable
 Crie o arquivo `backend/.env` (não commitado no git):
 
 ```bash
-MONGO_URL=mongodb+srv://nerdsite:u8ftXY6vMkMtiK66@datanerd-site.m92cjuk.mongodb.net/?appName=datanerd-site
+MONGO_URL=mongodb+srv://<usuario>:<senha>@cluster0.xxxxx.mongodb.net/?appName=datanerd-site
 DB_NAME=datanerd
 CORS_ORIGINS=*
 ```
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 ### **2. Criar arquivo .env:**
 ```bash
 cat > .env << 'EOF'
-MONGO_URL=mongodb+srv://nerdsite:u8ftXY6vMkMtiK66@datanerd-site.m92cjuk.mongodb.net/?appName=datanerd-site
+MONGO_URL=mongodb+srv://<usuario>:<senha>@cluster0.xxxxx.mongodb.net/?appName=datanerd-site
 DB_NAME=datanerd
 CORS_ORIGINS=*
 EOF
@@ -131,7 +131,7 @@ curl http://localhost:8001/api/status
 
 2. **Database Access**:
    - Usuário: `nerdsite` ✅
-   - Senha: `u8ftXY6vMkMtiK66` ✅
+   - Senha: `<sua_senha>` ✅
    - Permissões: Read and write to any database ✅
 
 ---
