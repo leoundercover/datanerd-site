@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - DataNerd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo"><div class="logo-icon"></div><span class="logo-text">DataNerd</span></a>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="solucoes.html">Soluções</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+            <button class="btn-cta" onclick="openWhatsApp()">Falar com a DataNerd <span>→</span></button>
+            <button class="menu-toggle"><i>☰</i></button>
+        </div>
+        <div class="mobile-menu">
+            <a href="index.html">Início</a>
+            <a href="solucoes.html">Soluções</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <button class="btn-cta" onclick="openWhatsApp()">Falar com a DataNerd <span>→</span></button>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-bg"><div class="hero-blob hero-blob-1"></div><div class="hero-blob hero-blob-2"></div></div>
+        <div class="hero-content">
+            <h1 class="hero-title gradient-text">Sobre a DataNerd</h1>
+            <p class="hero-subtitle">Inteligência operacional feita por quem entende de rotina</p>
+        </div>
+    </section>
+
+    <section style="background: white;">
+        <div class="container" style="max-width: 1024px;">
+            <div class="card" style="background: linear-gradient(135deg, #035AA6, #457ABF, #8593A6); color: white; padding: 4rem;">
+                <h2 style="font-size: 3rem; font-weight: 900; margin-bottom: 2rem;">Nossa missão</h2>
+                <p style="font-size: 1.5rem; margin-bottom: 1.5rem; opacity: 0.9;">A DataNerd existe para deixar sua rotina mais leve. Inteligência simples, aplicada de verdade.</p>
+                <p style="font-size: 1.125rem; opacity: 0.8;">Sabemos que pequenos e médios negócios não têm tempo para tecnologias complicadas. Por isso, criamos soluções que se integram naturalmente no seu dia a dia, sem exigir cursos, manuais ou adaptações forçadas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #F8F9FA;">
+        <div class="container">
+            <div class="text-center mb-8">
+                <h2 class="section-title gradient-text">Nossos valores</h2>
+                <p style="font-size: 1.25rem; color: var(--color-muted);">O que nos move todos os dias</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #035AA6, #457ABF);">🎯</div>
+                    <h3 class="card-title">Foco no essencial</h3>
+                    <p class="card-description">Não fazemos nada desnecessário. Cada solução é pensada para resolver problemas reais, sem complicação.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #457ABF, #8593A6);">⚡</div>
+                    <h3 class="card-title">Simplicidade eficiente</h3>
+                    <p class="card-description">Inteligência não precisa ser complexa. Criamos ferramentas que funcionam naturalmente no dia a dia.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #8593A6, #035AA6);">❤️</div>
+                    <h3 class="card-title">Entendemos sua rotina</h3>
+                    <p class="card-description">Somos formados por pessoas que já viveram a correria de pequenos e médios negócios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: white;">
+        <div class="container" style="max-width: 900px;">
+            <h2 class="section-title text-center gradient-text mb-4">Como começamos</h2>
+            <div style="font-size: 1.125rem; color: var(--color-muted); line-height: 1.8; display: flex; flex-direction: column; gap: 1.5rem;">
+                <p style="font-size: 1.25rem;">A DataNerd nasceu da experiência de quem viveu na pele os desafios de gerenciar operações sem estrutura tecnológica adequada.</p>
+                <p>Percebemos que a maioria das soluções disponíveis no mercado era ou muito complexa (feita para grandes empresas) ou muito básica (planilhas e anotações manuais).</p>
+                <p>Decidimos criar algo no meio do caminho: ferramentas inteligentes, mas simples. Tecnologia que funciona sem precisar de especialista para operar.</p>
+                <div class="card" style="background: linear-gradient(135deg, rgba(3,90,166,0.05), rgba(69,122,191,0.05)); border-left: 4px solid var(--color-secondary);">
+                    <p style="font-size: 1.25rem; font-weight: 700; color: var(--color-primary);">Hoje, ajudamos clínicas, escritórios, academias, profissionais autônomos e pequenos negócios a terem mais controle, menos retrabalho e mais tempo para o que realmente importa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: linear-gradient(135deg, #035AA6, #457ABF, #8593A6); color: white;">
+        <div class="container text-center">
+            <h2 class="section-title" style="color: white;">Vamos conversar?</h2>
+            <p style="font-size: 1.25rem; margin-bottom: 3rem; opacity: 0.9;">Gostaria de entender melhor como podemos ajudar sua operação</p>
+            <a href="contato.html" class="btn" style="background: white; color: var(--color-primary);">Entrar em contato <span>→</span></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div><div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;"><div style="width: 40px; height: 40px; background: rgba(255,255,255,0.2); backdrop-filter: blur(20px); border-radius: 12px;"></div><h3 style="font-size: 1.5rem; font-weight: 700;">DataNerd</h3></div><p style="color: rgba(255,255,255,0.7); font-size: 0.875rem;">Inteligência operacional para quem vive da própria rotina.</p></div>
+                <div><h4 class="footer-title">Navegação</h4><ul class="footer-links"><li><a href="index.html">Início</a></li><li><a href="solucoes.html">Soluções</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="contato.html">Contato</a></li></ul></div>
+                <div><h4 class="footer-title">Soluções</h4><ul class="footer-links"><li><a href="solucoes.html">Atendimento Inteligente</a></li><li><a href="solucoes.html">Agendamentos Inteligentes</a></li><li><a href="solucoes.html">NerdHire</a></li><li><a href="solucoes.html">Projetos sob medida</a></li></ul></div>
+                <div><h4 class="footer-title">Contato</h4><ul class="footer-links"><li><a href="https://wa.me/5511981793555" target="_blank">WhatsApp: (11) 98179-3555</a></li><li><a href="mailto:nerd@datanerd.com.br">nerd@datanerd.com.br</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>© 2025 DataNerd. Todos os direitos reservados.</p></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

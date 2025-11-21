@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - DataNerd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo"><div class="logo-icon"></div><span class="logo-text">DataNerd</span></a>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="solucoes.html">Soluções</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+            <button class="btn-cta" onclick="openWhatsApp()">Falar com a DataNerd <span>→</span></button>
+            <button class="menu-toggle"><i>☰</i></button>
+        </div>
+        <div class="mobile-menu">
+            <a href="index.html">Início</a>
+            <a href="solucoes.html">Soluções</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <button class="btn-cta" onclick="openWhatsApp()">Falar com a DataNerd <span>→</span></button>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-bg"><div class="hero-blob hero-blob-1"></div><div class="hero-blob hero-blob-2"></div></div>
+        <div class="hero-content">
+            <h1 class="hero-title gradient-text">Fale com a gente</h1>
+            <p class="hero-subtitle">Escolha o canal que preferir para começarmos uma conversa</p>
+        </div>
+    </section>
+
+    <section style="background: white;">
+        <div class="container">
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #035AA6, #457ABF);">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3 class="card-title">WhatsApp</h3>
+                    <p class="card-description">Resposta rápida no seu mensageiro favorito</p>
+                    <button class="btn btn-outline" style="width: 100%; margin-top: 1rem;" onclick="openWhatsApp()">(11) 98179-3555</button>
+                </div>
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #457ABF, #8593A6);">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <h3 class="card-title">Email</h3>
+                    <p class="card-description">Envie sua mensagem detalhada</p>
+                    <button class="btn btn-outline" style="width: 100%; margin-top: 1rem;" onclick="openEmail()">nerd@datanerd.com.br</button>
+                </div>
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #8593A6, #035AA6);">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <h3 class="card-title">Telefone</h3>
+                    <p class="card-description">Prefere falar? Também estamos disponíveis</p>
+                    <button class="btn btn-outline" style="width: 100%; margin-top: 1rem;" onclick="window.location.href='tel:+5511981793555'">(11) 98179-3555</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #F8F9FA;">
+        <div class="container" style="max-width: 1024px;">
+            <div class="text-center mb-4">
+                <h2 class="section-title gradient-text">Ou preencha o formulário</h2>
+                <p style="font-size: 1.125rem; color: var(--color-muted);">Responderemos em até 24 horas</p>
+            </div>
+            <div class="card" style="min-height: 600px; padding: 0; overflow: hidden;">
+                <iframe src="https://tally.so/embed/mZpYR0?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" title="Formulário de Contato DataNerd"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: white;">
+        <div class="container text-center">
+            <div class="card" style="background: linear-gradient(135deg, #F8F9FA, white);">
+                <div class="card-icon" style="background: linear-gradient(135deg, #035AA6, #457ABF); margin: 0 auto;">🕐</div>
+                <h3 style="font-size: 2rem; font-weight: 700; color: var(--color-primary); margin: 1.5rem 0;">Horário de atendimento</h3>
+                <p style="font-size: 1.125rem; color: var(--color-dark); margin-bottom: 0.5rem;"><strong>Segunda a sexta:</strong> 9h às 18h</p>
+                <p style="font-size: 1.125rem; color: var(--color-dark); margin-bottom: 1.5rem;"><strong>Sábados:</strong> 9h às 13h</p>
+                <p style="color: var(--color-muted);">Mensagens recebidas fora do horário serão respondidas no próximo dia útil</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div><div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;"><div style="width: 40px; height: 40px; background: rgba(255,255,255,0.2); backdrop-filter: blur(20px); border-radius: 12px;"></div><h3 style="font-size: 1.5rem; font-weight: 700;">DataNerd</h3></div><p style="color: rgba(255,255,255,0.7); font-size: 0.875rem;">Inteligência operacional para quem vive da própria rotina.</p></div>
+                <div><h4 class="footer-title">Navegação</h4><ul class="footer-links"><li><a href="index.html">Início</a></li><li><a href="solucoes.html">Soluções</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="contato.html">Contato</a></li></ul></div>
+                <div><h4 class="footer-title">Soluções</h4><ul class="footer-links"><li><a href="solucoes.html">Atendimento Inteligente</a></li><li><a href="solucoes.html">Agendamentos Inteligentes</a></li><li><a href="solucoes.html">NerdHire</a></li><li><a href="solucoes.html">Projetos sob medida</a></li></ul></div>
+                <div><h4 class="footer-title">Contato</h4><ul class="footer-links"><li><a href="https://wa.me/5511981793555" target="_blank">WhatsApp: (11) 98179-3555</a></li><li><a href="mailto:nerd@datanerd.com.br">nerd@datanerd.com.br</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>© 2025 DataNerd. Todos os direitos reservados.</p></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
