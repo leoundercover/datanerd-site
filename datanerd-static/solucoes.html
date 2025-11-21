@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluções - DataNerd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"></div>
+                <span class="logo-text">DataNerd</span>
+            </a>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="solucoes.html">Soluções</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+            <button class="btn-cta" onclick="openWhatsApp()">Falar com a DataNerd <span>→</span></button>
+            <button class="menu-toggle"><i>☰</i></button>
+        </div>
+        <div class="mobile-menu">
+            <a href="index.html">Início</a>
+            <a href="solucoes.html">Soluções</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <button class="btn-cta" onclick="openWhatsApp()">Falar com a DataNerd <span>→</span></button>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height: 60vh;">
+        <div class="hero-bg">
+            <div class="hero-blob hero-blob-1"></div>
+            <div class="hero-blob hero-blob-2"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title gradient-text">Nossas Soluções</h1>
+            <p class="hero-subtitle">Inteligência operacional aplicada às necessidades reais do seu negócio</p>
+        </div>
+    </section>
+
+    <section style="background: white;">
+        <div class="container">
+            <div class="grid grid-2" style="gap: 4rem;">
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #035AA6, #457ABF);">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">Atendimento Inteligente</h3>
+                    <p style="color: var(--color-muted); margin-bottom: 1.5rem;">Organize conversas, automatize respostas e mantenha o controle da sua comunicação.</p>
+                    <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.75rem;">
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Organização automática de conversas</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Respostas padronizadas configuráveis</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Histórico completo de interações</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Notificações inteligentes</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #ACCAF2, #1D4B73);">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">Agendamentos Inteligentes</h3>
+                    <p style="color: var(--color-muted); margin-bottom: 1.5rem;">Gestão completa de horários, lembretes automáticos e controle de agenda.</p>
+                    <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.75rem;">
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Agenda sincronizada em tempo real</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Lembretes automáticos por WhatsApp</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Gestão de cancelamentos e remarcações</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Relatórios de ocupação</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #457ABF, #8593A6);">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">NerdHire</h3>
+                    <p style="color: var(--color-muted); margin-bottom: 1.5rem;">Processos seletivos organizados, do anúncio à contratação.</p>
+                    <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.75rem;">
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Publicação centralizada de vagas</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Triagem automatizada de candidatos</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Organização de entrevistas</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Acompanhamento do processo</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #8593A6, #035AA6);">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">Projetos sob medida</h3>
+                    <p style="color: var(--color-muted); margin-bottom: 1.5rem;">Soluções personalizadas para necessidades específicas do seu negócio.</p>
+                    <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.75rem;">
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Análise da sua operação atual</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Desenvolvimento personalizado</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Integração com sistemas existentes</li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;"><span style="color: var(--color-secondary); font-weight: 700;">✓</span> Suporte dedicado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #F8F9FA;">
+        <div class="container text-center">
+            <h2 class="section-title gradient-text">Qual solução faz sentido para você?</h2>
+            <p style="font-size: 1.25rem; color: var(--color-muted); margin-bottom: 3rem;">Vamos conversar sobre como podemos organizar sua operação</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <button class="btn btn-primary" onclick="openWhatsApp()">Falar no WhatsApp <span>→</span></button>
+                <a href="contato.html" class="btn btn-outline">Enviar mensagem</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div>
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;">
+                        <div style="width: 40px; height: 40px; background: rgba(255,255,255,0.2); backdrop-filter: blur(20px); border-radius: 12px;"></div>
+                        <h3 style="font-size: 1.5rem; font-weight: 700;">DataNerd</h3>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 0.875rem;">Inteligência operacional para quem vive da própria rotina.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="solucoes.html">Soluções</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Soluções</h4>
+                    <ul class="footer-links">
+                        <li><a href="solucoes.html">Atendimento Inteligente</a></li>
+                        <li><a href="solucoes.html">Agendamentos Inteligentes</a></li>
+                        <li><a href="solucoes.html">NerdHire</a></li>
+                        <li><a href="solucoes.html">Projetos sob medida</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://wa.me/5511981793555" target="_blank">WhatsApp: (11) 98179-3555</a></li>
+                        <li><a href="mailto:nerd@datanerd.com.br">nerd@datanerd.com.br</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>© 2025 DataNerd. Todos os direitos reservados.</p></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
