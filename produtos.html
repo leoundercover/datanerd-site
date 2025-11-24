@@ -3,364 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conheça as soluções de IA da DataNerd: MentorAds, Atendimento Inteligente, Aptor e muito mais.">
-    <title>Produtos & Serviços - DataNerd</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Produtos | Datanerd</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
+    <header>
         <div class="container">
-            <nav class="nav">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="images/logo.png" alt="DataNerd">
-                    </a>
+            <nav>
+                <a href="index.html" class="logo">
+                    <div class="logo-icon"></div>
+                    Datanerd
+                </a>
+                <div class="nav-menu">
+                    <a href="index.html">Home</a>
+                    <a href="produtos.html" class="active">Produtos</a>
+                    <a href="solucoes.html">Soluções</a>
+                    <a href="sobre.html">Sobre Nós</a>
+                    <a href="contato.html">Contato</a>
                 </div>
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#solucoes">Soluções</a></li>
-                    <li><a href="index.html#resultados">Resultados</a></li>
-                    <li><a href="produtos.html" class="active">Produtos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-                <a href="contato.html" class="btn-primary">Fale Conosco</a>
-                <button class="mobile-toggle" aria-label="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                <a href="contato.html" class="btn btn-primary btn-sm">Fale Conosco</a>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="page-hero">
-        <div class="container">
-            <div class="page-hero-content">
-                <h1>Produtos & Serviços</h1>
-                <p>Soluções de IA que transformam seu negócio com resultados reais e mensuráveis</p>
-            </div>
-        </div>
-    </section>
+    <main>
+        <section class="container section-spacing text-center">
+            <h1>Produtos criados para a vida real do seu negócio</h1>
+            <p class="lead-text">Os produtos da DataNerd nascem de problemas que profissionais e pequenos negócios enfrentam todos os dias: atendimento travado, agenda confusa, processos lentos e decisões que consomem tempo demais.</p>
+            <p class="highlight-text text-center" style="max-width: 800px; margin: 0 auto;">Cada produto é objetivo, funcional e feito para resolver o que pesa na sua operação — sem frescura e sem complicação técnica.</p>
+        </section>
 
-    <!-- Products Grid -->
-    <section class="products-section">
-        <div class="container">
-            <!-- MentorAds -->
-            <div class="product-detail">
-                <div class="product-detail-header">
-                    <div class="product-icon">🚀</div>
-                    <div>
-                        <h2>MentorAds</h2>
-                        <span class="product-category">Crescimento de Receita</span>
+        <section class="container" style="margin-bottom: 80px;">
+            <div class="grid-2">
+                <!-- Produto 1 -->
+                <div class="card flex-column">
+                    <div style="margin-bottom: 20px;"><i class="ph ph-whatsapp-logo icon-xl"></i></div>
+                    <h3>Atendimento Inteligente</h3>
+                    <p class="description">Organiza conversas, responde com clareza e reduz ruído no WhatsApp.</p>
+                    <div class="mt-auto">
+                        <h4>O que faz</h4>
+                        <ul class="simple-list resolve-list">
+                            <li>responde dúvidas comuns</li>
+                            <li>direciona conversas</li>
+                            <li>coleta informações importantes</li>
+                            <li>mantém o cliente informado</li>
+                            <li>reduz retrabalho</li>
+                        </ul>
+                        <h4>Para quem é</h4>
+                        <p>Negócios que vivem da conversa: clínicas, consultórios, profissionais liberais, estúdios, serviços locais.</p>
                     </div>
                 </div>
-                <div class="product-detail-content">
-                    <div class="product-description">
-                        <h3>Otimize suas campanhas com inteligência artificial</h3>
-                        <p>
-                            O MentorAds é uma plataforma de otimização de campanhas publicitárias que utiliza IA para 
-                            maximizar seus resultados. Analisa dados em tempo real, identifica padrões de conversão e 
-                            ajusta automaticamente suas estratégias para reduzir custos e aumentar o ROI.
-                        </p>
-                        <h4>Principais benefícios:</h4>
-                        <ul class="product-benefits">
-                            <li>Redução de até 40% no custo por lead</li>
-                            <li>Otimização automática de lances e segmentação</li>
-                            <li>Análise preditiva de performance</li>
-                            <li>Relatórios em tempo real com insights acionáveis</li>
-                            <li>Integração com Google Ads, Facebook Ads e LinkedIn</li>
+
+                <!-- Produto 2 -->
+                <div class="card flex-column">
+                    <div style="margin-bottom: 20px;"><i class="ph ph-calendar-check icon-xl"></i></div>
+                    <h3>Agendamentos Inteligentes</h3>
+                    <p class="description">Sua agenda funcionando com menos erros, menos faltas e menos tempo perdido.</p>
+                    <div class="mt-auto">
+                        <h4>O que faz</h4>
+                        <ul class="simple-list resolve-list">
+                            <li>confirma horários</li>
+                            <li>envia lembretes</li>
+                            <li>reduz no-shows</li>
+                            <li>permite remarcações</li>
+                            <li>organiza horários reais</li>
+                        </ul>
+                        <h4>Para quem é</h4>
+                        <p>Qualquer operação baseada em agenda: saúde, estética, personal, atendimento especializado e serviços.</p>
+                    </div>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="card flex-column">
+                    <div style="margin-bottom: 20px;"><i class="ph ph-sort-ascending icon-xl"></i></div>
+                    <h3>Triagem Operacional</h3>
+                    <p class="description">Organização clara para quem lida com informações soltas e repetitivas.</p>
+                    <div class="mt-auto">
+                        <h4>O que faz</h4>
+                        <ul class="simple-list resolve-list">
+                            <li>padroniza entradas</li>
+                            <li>reduz retrabalho</li>
+                            <li>cria clareza</li>
+                            <li>elimina duplicidades</li>
+                            <li>acelera decisões</li>
+                        </ul>
+                        <h4>Para quem é</h4>
+                        <p>Profissionais e negócios que lidam com dados e processos manuais demais.</p>
+                    </div>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="card flex-column">
+                    <div style="margin-bottom: 20px;"><i class="ph ph-pencil-ruler icon-xl"></i></div>
+                    <h3>Projetos Sob Medida</h3>
+                    <p class="description">Quando você sabe que precisa de algo específico — e soluções prontas não resolvem.</p>
+                    <div class="mt-auto">
+                        <h4>O que faz</h4>
+                        <p style="margin-bottom: 12px;">Cria exatamente o que sua operação precisa: fluxos, integrações, automatizações ou lógica personalizada.</p>
+                        <h4>Para quem é</h4>
+                        <p>Operações únicas, rotinas fora do padrão ou negócios que já mapearam a própria dor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section-spacing">
+            <div class="card bg-card-highlight padding-large">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <h2 class="text-center">Por que os produtos da DataNerd são diferentes</h2>
+                    <div class="grid-2" style="margin-top: 40px;">
+                        <ul class="simple-list check-list font-medium">
+                            <li>focam no que realmente pesa na rotina</li>
+                            <li>funcionam direto no WhatsApp</li>
+                            <li>não exigem aprendizado de plataforma</li>
+                        </ul>
+                        <ul class="simple-list check-list font-medium">
+                            <li>são claros, simples e sustentáveis</li>
+                            <li>não tentam substituir pessoas — liberam elas</li>
                         </ul>
                     </div>
-                    <div class="product-stats">
-                        <div class="stat-box">
-                            <div class="stat-value">40%</div>
-                            <div class="stat-label">Redução de custo por lead</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">3x</div>
-                            <div class="stat-label">Aumento no ROI</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">24/7</div>
-                            <div class="stat-label">Monitoramento contínuo</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-actions">
-                    <a href="mentorads.html" class="btn-product-detail">Ver detalhes completos</a>
-                    <a href="https://landing.mentorads.pro/" target="_blank" class="btn-product-external">Acessar MentorAds →</a>
                 </div>
             </div>
+        </section>
 
-            <!-- Atendimento Inteligente -->
-            <div class="product-detail">
-                <div class="product-detail-header">
-                    <div class="product-icon">💬</div>
-                    <div>
-                        <h2>Atendimento Inteligente com IA</h2>
-                        <span class="product-category">Eficiência Operacional</span>
-                    </div>
-                </div>
-                <div class="product-detail-content">
-                    <div class="product-description">
-                        <h3>Atendimento ao cliente que nunca dorme</h3>
-                        <p>
-                            Nossa solução de atendimento inteligente combina chatbots avançados com processamento de 
-                            linguagem natural para oferecer suporte 24/7 aos seus clientes. Resolve dúvidas comuns 
-                            automaticamente e encaminha casos complexos para sua equipe com todo o contexto necessário.
-                        </p>
-                        <h4>Principais benefícios:</h4>
-                        <ul class="product-benefits">
-                            <li>Redução de 60% no tempo de atendimento</li>
-                            <li>Disponibilidade 24/7 sem custos adicionais</li>
-                            <li>Respostas personalizadas baseadas no histórico do cliente</li>
-                            <li>Integração com WhatsApp, site e redes sociais</li>
-                            <li>Aprendizado contínuo com cada interação</li>
-                        </ul>
-                    </div>
-                    <div class="product-stats">
-                        <div class="stat-box">
-                            <div class="stat-value">60%</div>
-                            <div class="stat-label">Redução no tempo de atendimento</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">95%</div>
-                            <div class="stat-label">Satisfação dos clientes</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">80%</div>
-                            <div class="stat-label">Casos resolvidos automaticamente</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-actions">
-                    <a href="atendimento-ia.html" class="btn-product-detail">Ver detalhes completos</a>
-                    <a href="contato.html" class="btn-product-external">Solicitar demonstração →</a>
-                </div>
+        <section class="container section-spacing text-center">
+            <h2>Se algum desses produtos resolve algo que você vive todos os dias, fale com a DataNerd.</h2>
+            <p class="cta-text">Organizar sua operação não precisa ser difícil.</p>
+            <a href="contato.html" class="btn btn-primary btn-lg">Fale com a DataNerd</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <div class="logo justify-center mb-4" style="color: white; display: flex;">
+                <div class="logo-icon"></div>
+                Datanerd
             </div>
-
-            <!-- Aptor -->
-            <div class="product-detail">
-                <div class="product-detail-header">
-                    <div class="product-icon">🎯</div>
-                    <div>
-                        <h2>Aptor</h2>
-                        <span class="product-category">Crescimento de Receita</span>
-                    </div>
-                </div>
-                <div class="product-detail-content">
-                    <div class="product-description">
-                        <h3>Qualificação inteligente de leads</h3>
-                        <p>
-                            O Aptor é um sistema de qualificação e pontuação de leads que utiliza machine learning para 
-                            identificar quais prospects têm maior probabilidade de conversão. Prioriza automaticamente 
-                            seu pipeline de vendas e aumenta a taxa de fechamento da sua equipe comercial.
-                        </p>
-                        <h4>Principais benefícios:</h4>
-                        <ul class="product-benefits">
-                            <li>Aumento de 50% na taxa de conversão</li>
-                            <li>Pontuação automática baseada em comportamento</li>
-                            <li>Identificação de leads prontos para compra</li>
-                            <li>Integração com CRM e ferramentas de vendas</li>
-                            <li>Previsão de receita com base em dados históricos</li>
-                        </ul>
-                    </div>
-                    <div class="product-stats">
-                        <div class="stat-box">
-                            <div class="stat-value">50%</div>
-                            <div class="stat-label">Aumento na conversão</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">70%</div>
-                            <div class="stat-label">Redução no ciclo de vendas</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">90%</div>
-                            <div class="stat-label">Precisão na qualificação</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- LeadsNerd -->
-            <div class="product-detail">
-                <div class="product-detail-header">
-                    <div class="product-icon">📊</div>
-                    <div>
-                        <h2>LeadsNerd</h2>
-                        <span class="product-category">Crescimento de Receita</span>
-                    </div>
-                </div>
-                <div class="product-detail-content">
-                    <div class="product-description">
-                        <h3>Geração e nutrição automatizada de leads</h3>
-                        <p>
-                            LeadsNerd é uma plataforma completa de geração e nutrição de leads que combina automação 
-                            de marketing com IA. Cria campanhas personalizadas, segmenta audiências e nutre leads 
-                            automaticamente até estarem prontos para a venda.
-                        </p>
-                        <h4>Principais benefícios:</h4>
-                        <ul class="product-benefits">
-                            <li>Geração de 3x mais leads qualificados</li>
-                            <li>Sequências de email personalizadas automaticamente</li>
-                            <li>Segmentação inteligente de audiência</li>
-                            <li>A/B testing automático de campanhas</li>
-                            <li>Dashboard com métricas em tempo real</li>
-                        </ul>
-                    </div>
-                    <div class="product-stats">
-                        <div class="stat-box">
-                            <div class="stat-value">3x</div>
-                            <div class="stat-label">Mais leads qualificados</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">45%</div>
-                            <div class="stat-label">Aumento em conversões</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">100h</div>
-                            <div class="stat-label">Economizadas por mês</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AgendaNerd -->
-            <div class="product-detail">
-                <div class="product-detail-header">
-                    <div class="product-icon">📅</div>
-                    <div>
-                        <h2>AgendaNerd</h2>
-                        <span class="product-category">Eficiência Operacional</span>
-                    </div>
-                </div>
-                <div class="product-detail-content">
-                    <div class="product-description">
-                        <h3>Agendamento inteligente e automatizado</h3>
-                        <p>
-                            AgendaNerd elimina o vai-e-vem de emails para marcar reuniões. Utiliza IA para encontrar 
-                            os melhores horários, envia lembretes automáticos e se integra com todas as principais 
-                            ferramentas de calendário e videoconferência.
-                        </p>
-                        <h4>Principais benefícios:</h4>
-                        <ul class="product-benefits">
-                            <li>Economia de 200h/mês em agendamentos</li>
-                            <li>Redução de 80% em no-shows com lembretes inteligentes</li>
-                            <li>Integração com Google Calendar, Outlook e Zoom</li>
-                            <li>Agendamento por link, WhatsApp ou chatbot</li>
-                            <li>Reagendamento automático em caso de conflitos</li>
-                        </ul>
-                    </div>
-                    <div class="product-stats">
-                        <div class="stat-box">
-                            <div class="stat-value">200h</div>
-                            <div class="stat-label">Economizadas por mês</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">80%</div>
-                            <div class="stat-label">Redução em no-shows</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">100%</div>
-                            <div class="stat-label">Automatizado</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Relatórios Automáticos -->
-            <div class="product-detail">
-                <div class="product-detail-header">
-                    <div class="product-icon">📈</div>
-                    <div>
-                        <h2>Relatórios Automáticos</h2>
-                        <span class="product-category">Eficiência Operacional</span>
-                    </div>
-                </div>
-                <div class="product-detail-content">
-                    <div class="product-description">
-                        <h3>Insights em tempo real sem esforço manual</h3>
-                        <p>
-                            Nossa solução de relatórios automáticos coleta dados de todas as suas ferramentas, analisa 
-                            tendências e gera relatórios visuais prontos para apresentação. Receba insights acionáveis 
-                            diretamente no seu email ou dashboard.
-                        </p>
-                        <h4>Principais benefícios:</h4>
-                        <ul class="product-benefits">
-                            <li>Economia de 50h/mês em criação de relatórios</li>
-                            <li>Dashboards personalizados em tempo real</li>
-                            <li>Alertas automáticos para métricas críticas</li>
-                            <li>Integração com Google Analytics, CRM e mais</li>
-                            <li>Relatórios em PDF, PowerPoint ou email</li>
-                        </ul>
-                    </div>
-                    <div class="product-stats">
-                        <div class="stat-box">
-                            <div class="stat-value">50h</div>
-                            <div class="stat-label">Economizadas por mês</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">100%</div>
-                            <div class="stat-label">Automatizado</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-value">Real-time</div>
-                            <div class="stat-label">Dados atualizados</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-box">
-                <h2>Pronto para transformar seu negócio?</h2>
-                <p>Agende um diagnóstico gratuito e descubra qual solução é ideal para você</p>
-                <a href="contato.html" class="btn-large">Falar com especialista</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <img src="images/logo.png" alt="DataNerd" class="footer-logo">
-                    <p>DataNerd © 2025 – Inteligência que gera crescimento.</p>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>Links rápidos</h4>
-                    <a href="index.html">Home</a>
-                    <a href="produtos.html">Produtos & Serviços</a>
-                    <a href="contato.html">Contato</a>
-                </div>
-                
-                <div class="footer-contact">
-                    <h4>Contato</h4>
-                    <a href="mailto:contato@datenerd.com">contato@datenerd.com</a>
-                    <a href="https://wa.me/5511999999999" target="_blank">WhatsApp</a>
-                </div>
+            <p class="mb-4">Inteligência operacional para quem vive da própria rotina.</p>
+            <div class="footer-bottom justify-center">
+                <small>© 2024 Datanerd. Todos os direitos reservados.</small>
             </div>
         </div>
     </footer>
-
-    <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
-        <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-        </svg>
-    </a>
-
-    <script src="assets/script.js"></script>
+    <script src="asset/js/script.js"></script>
 </body>
 </html>
